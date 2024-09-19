@@ -4,7 +4,7 @@ import {Burger} from './Burgerpage';
 import { Deliverypage } from "./Deliverypage";
 import { Menu } from "./Menu";
 import { Testimonials } from "./Testimonial";
-
+import { Advert } from "./Advertising";
 export default function App(){
     return(
         <>
@@ -14,6 +14,7 @@ export default function App(){
             <Deliverypage />
             <Menu />
             <Testimonials />
+            <Advert /> 
         </>
     );
 }
