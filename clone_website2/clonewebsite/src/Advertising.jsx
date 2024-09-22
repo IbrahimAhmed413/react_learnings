@@ -1,8 +1,8 @@
 import pageimg from './pageimg.webp'
 // import { FaPhone } from "react-icons/fa6";
-// import { FaWhatsappSquare } from "react-icons/fa";
-// import { FaEnvelopeOpen } from "react-icons/fa6";
-// import { FaClock } from "react-icons/fa";
+import { FaWhatsappSquare } from "react-icons/fa";
+import { FaEnvelopeOpen } from "react-icons/fa6";
+import { FaClock } from "react-icons/fa";
 
 
 export function Advert() {
@@ -39,20 +39,20 @@ export function Advert() {
                     <p style={{ fontSize: 'large' }}>
                         159 Cooper Creek Lane, Willis, TX, USA
                     </p>
-                    {/* <FaPhone style={{ marginRight: '6px ', color: '#e56a48' }} /> */}
-                    <a href="#" style={{ textDecoration: 'none', color: '#e56a48' }}>+1-8036163103</a><br />
 
-                    {/* <FaWhatsappSquare style={{ color: 'green', marginRight: ' 6px' }} /> */}
+                   <a href="#" style={{ textDecoration: 'none', color: '#e56a48' }}> +1-8036163103</a><br />
+
+                    <FaWhatsappSquare style={{ color: 'green', marginRight: ' 6px' }} />
                     <a href="#" style={{ textDecoration: 'none', color: '#e56a48' }}>+1-8036163103</a><br />
 
                     {/* <FaEnvelopeOpen style="color: #e56a48;margin-right: 6px;" /> */}
                     <a href="#" style={{ textDecoration: 'none', color: ' #e56a48' }}>cbraxton@leeannasouthernkitchen.com</a><br />
                     <p style={{ marginTop: '2px', font: 'large' }}>
-                        {/* <FaClock style={{ color: '#e56a48', marginRight: '6px ' }} /> */}
+                        <FaClock style={{ color: '#e56a48', marginRight: '6px ' }} />
                         SUN 11:30am to 9:30PM</p>
                 </div>
 
-                <div style={{ display: 'inline-block', float: 'right', marginRight: '40px' }}>
+                <div style={{ display: 'inline-block', float: 'right', marginRight: '40px', }}>
                     <form action="" style={{border:''}}>
                         <input type="text" placeholder="Name" style={{ padding: '15px 25px', textAlign: 'left' }} />
                         <input type="text" placeholder="Phone Number" style={{ marginLeft: '20px', padding: ' 15px 25px' }} /><br></br>

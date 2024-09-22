@@ -5,6 +5,7 @@ import { Deliverypage } from "./Deliverypage";
 import { Menu } from "./Menu";
 import { Testimonials } from "./Testimonial";
 import { Advert } from "./Advertising";
+import { Footer } from "./Footer";
 export default function App(){
     return(
         <>
@@ -15,6 +16,7 @@ export default function App(){
             <Menu />
             <Testimonials />
             <Advert /> 
+            <Footer />
         </>
     );
 }
